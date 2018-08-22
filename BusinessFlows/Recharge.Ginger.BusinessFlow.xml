@@ -1,0 +1,1395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.BusinessFlow Active="True" Created="8/21/2018 8:48:00 AM" CreatedBy="VMALAKAR" Elapsed="30038" EnableActivitiesVariablesDependenciesControl="False" ExternalID="~\Documents\Features\Recharge.feature" Guid="92981a51-d377-4a57-8755-a47af3632980" LastUpdate="8/21/2018 10:16:52 AM" LastUpdateBy="VMALAKAR" Mandatory="False" Name="Recharge" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Gherkin" Version="49">
+<Activities>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities" ActivityName="Recharge screen is launched" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="4ea59e5f-f713-4ad7-af01-a28a87ac7e79" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="8/21/2018 9:02:39 AM" CreatedBy="VMALAKAR" Description="Goto URL Action" EnableRetryMechanism="False" ExternalID="" Guid="f41f2db8-59c5-411b-ad62-4928beb98d6d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="7b398b58-79e4-44e6-b033-785bbfc07d90" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="http://brijb05:8083/Demo/DOXCOM.html" Value="http://brijb05:8083/Demo/DOXCOM.html" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities" ActivityName="user search for customer id %p1" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="882255a7-b65d-42f5-8b63-362eaf92430b" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:02:57 AM" CreatedBy="VMALAKAR" Description="enter customer_id" EnableRetryMechanism="True" ExternalID="" GenElementAction="SendKeys" Guid="c33aacb4-c600-47a9-8b63-95ff4666132f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="CustID" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="f8ef599b-0584-467c-bcfc-a536e8079294" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="106b196d-4fdf-4e87-a0eb-ae03590b6268" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c0f04d11-a739-40ed-8694-462630fb0bb9" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:02:57 AM" CreatedBy="VMALAKAR" Description="click on search" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="497685a1-c30c-4200-9852-e65ecf09372d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="OpenButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="353516fd-a769-4f38-bb28-fcface0c3a31" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d3843556-bdc0-4fc1-a87b-e9ba36d6edb3" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1278bbf0-5075-4d52-a8a2-fd67355bd91c" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="12d32a8f-a779-46bc-a358-9e3e50519f9d" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities" ActivityName="user have initial %p1 amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="253b4751-8e7c-4450-88c2-ed7039d0e1bb" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:04:43 AM" CreatedBy="VMALAKAR" Description="check initial amount" EnableRetryMechanism="False" ExternalID="" GenElementAction="GetValue" Guid="dca9bd34-5dfe-4084-a8dc-a2af0e430308" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="BalanceTextBox" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="fb9aba67-dcd4-456b-8e37-e68d688394c5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="9f70a5e5-9e32-4b64-9f89-4e169ca8b4d8" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="831045c9-caeb-415e-b826-1be78f923d51" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="42c26ea6-1e68-41fc-893f-4f060661f2bb" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities" ActivityName="user enters recharge for %p1 amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="4e4f7eb0-08ca-4538-b7d2-0247c9f4823b" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:05:15 AM" CreatedBy="VMALAKAR" Description="click on recharge" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="edd65a67-bbb7-488e-84d6-7eb8089d174e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="RechargeButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="a0e06dd6-3d50-40e0-9d13-50b2af19a450" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="47c3af88-20e9-4a2a-a740-fd503b4b40c9" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="dd9cbb07-3fd1-423d-8d3a-160d3774a693" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:05:15 AM" CreatedBy="VMALAKAR" Description="enter recharge amount" EnableRetryMechanism="True" ExternalID="" GenElementAction="SetValue" Guid="3f9b936f-947a-464e-b5cf-1d6728963806" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="Amount" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="1b7f71ab-0c1c-4a51-9ccb-56a92234f32f" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="28614ec8-e454-49e7-b969-d5454e3af8e0" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="11a66aea-6d40-4194-b049-b3a56602319b" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="ba79689a-63e2-4744-bf8f-aa8937c4dd65" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities" ActivityName="select payment method %p1" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="7593ea48-1127-413b-9d7c-88791cbfae98" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActDropDownList ActDropDownListAction="SetSelectedValueByText" Active="True" ConfigOutputDS="False" Created="8/21/2018 9:06:08 AM" CreatedBy="VMALAKAR" Description="Drop Down Action - select payment method" EnableRetryMechanism="True" ExternalID="" Guid="05952c85-55da-4c9a-9d67-3dcc5d49a7d9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="PaymentType" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="3a983572-31d3-4b60-8156-65ff1cde11b4" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDropDownList>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="fe9699b7-5d1a-4876-9422-f67e71aa129b" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities" ActivityName="click on submit" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1d86d3fa-efef-4898-af9a-8bf62ff1c29b" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:09:10 AM" CreatedBy="VMALAKAR" Description="click on submit" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="af007553-deaa-4867-b43b-f35438128e93" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="submitButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="29da3703-0acc-4eb5-bda0-564920482a78" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="197f3563-2059-411d-b5d9-5e49fc4aea11" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="52bea1dc-304d-474e-834c-198a83da1440" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities" ActivityName="recharge should be successful" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="2e132c2d-6e54-4b2b-b6bf-7b9e6fc2fc5b" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:29:59 AM" CreatedBy="VMALAKAR" Description="check if recharge is successful" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetNumberOfElements" Guid="ace73cb7-14a2-40e5-8b65-373b5fef3e8b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//h3[contains(text(),&quot;recharged&quot;)]" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="4598bb64-255d-4069-b23c-45fb83df5f75" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="7a376ecc-0f52-4133-a81f-071290bd23f1" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c385a627-d8a7-496e-b977-9106f979924a" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="6749bcce-bde7-48ca-8bc3-c12458036e56" mExpected="1" Param="Elements Count" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities" ActivityName="user should have %p1 amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="933b9fa2-d0d9-4373-96d8-00525750c05e" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:09:37 AM" CreatedBy="VMALAKAR" Description="check final amount" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetValue" Guid="6a1630be-0a08-44e7-b6bf-303a5d8788a5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="BalanceTextBox" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="c0c6c2ff-84cf-493e-beaf-b8041341839b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ca8d1f13-9219-4f29-a95c-6b4e634a24d3" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="a5c6d3bb-078b-4f1d-8708-399498ccf127" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="5af00032-197a-401a-ab9f-faac6eae5310" mExpected="{Var Name=p1}" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="97d4c682-268a-4dab-a1f0-e72dee0b4ffb" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities - Not in Use" ActivityName="enter vouche code" AutomationStatus="Development" Created="8/21/2018 9:00:29 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="c62e7a62-5fd3-41d4-9520-544b53211990" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:07:04 AM" CreatedBy="VMALAKAR" Description="enter voucher code" EnableRetryMechanism="False" ExternalID="" GenElementAction="SetValue" Guid="8054b060-30a3-43a0-b318-795b3eed3d27" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="VoucherNum" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="10ea1271-a5ac-46d4-a2e1-9fcc1d6f0b37" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="40119935-db48-42ba-8cb2-295b6c4a0a75" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="e97a3eb1-4745-460e-82fb-2ef75508fcfd" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivitiesGroupID="Optimized Activities" ActivityName="enter vouche code %p1" AutomationStatus="Development" Created="8/21/2018 9:08:34 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="fe06e387-555f-4e54-9ce1-d6e1fd1c19a6" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:07:04 AM" CreatedBy="VMALAKAR" Description="enter voucher code" EnableRetryMechanism="False" ExternalID="" GenElementAction="SetValue" Guid="58278371-5c92-4d5b-99cc-4dbbf647f7b5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="VoucherNum" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="215ef89f-a7ce-480c-8daa-5f358ca70a4e" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ABC" Value="ABC" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="9352154f-bdd6-42a6-9ccb-82f428f8a48b" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1ce07130-b72e-4f6b-b952-3ff0cce7f145" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 9:08:34 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="74ae9c6c-00f0-4779-9e39-89cfd845ec77" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code cash" ActivityName="Recharge screen is launched" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="52aeabd0-4b51-4370-820e-c9653bafb8ba" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="4ea59e5f-f713-4ad7-af01-a28a87ac7e79" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="8/21/2018 9:02:39 AM" CreatedBy="VMALAKAR" Description="Goto URL Action" EnableRetryMechanism="False" ExternalID="" Guid="f41f2db8-59c5-411b-ad62-4928beb98d6d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="7b398b58-79e4-44e6-b033-785bbfc07d90" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="http://brijb05:8083/Demo/DOXCOM.html" Value="http://brijb05:8083/Demo/DOXCOM.html" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code cash" ActivityName="user search for customer id &quot;100&quot;" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="8e20e239-0eba-4ddb-a543-c2f901552081" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="882255a7-b65d-42f5-8b63-362eaf92430b" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:02:57 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="True" ExternalID="" GenElementAction="SendKeys" Guid="c33aacb4-c600-47a9-8b63-95ff4666132f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="CustID" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="f8ef599b-0584-467c-bcfc-a536e8079294" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="106b196d-4fdf-4e87-a0eb-ae03590b6268" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c0f04d11-a739-40ed-8694-462630fb0bb9" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:02:57 AM" CreatedBy="VMALAKAR" Description="Generic Element_search" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="497685a1-c30c-4200-9852-e65ecf09372d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="OpenButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="353516fd-a769-4f38-bb28-fcface0c3a31" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d3843556-bdc0-4fc1-a87b-e9ba36d6edb3" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1278bbf0-5075-4d52-a8a2-fd67355bd91c" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="12d32a8f-a779-46bc-a358-9e3e50519f9d" InitialStringValue="100" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="100" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code cash" ActivityName="user have initial &quot;1500&quot; amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="2c89a600-7c1e-4945-bdec-104a0b745d27" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="253b4751-8e7c-4450-88c2-ed7039d0e1bb" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:04:43 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="False" ExternalID="" GenElementAction="GetValue" Guid="dca9bd34-5dfe-4084-a8dc-a2af0e430308" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="BalanceTextBox" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="fb9aba67-dcd4-456b-8e37-e68d688394c5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="9f70a5e5-9e32-4b64-9f89-4e169ca8b4d8" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="831045c9-caeb-415e-b826-1be78f923d51" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="42c26ea6-1e68-41fc-893f-4f060661f2bb" InitialStringValue="1500" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1500" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code cash" ActivityName="user enters recharge for &quot;100&quot; amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1c55384b-7eec-41f6-8795-a4e74c61acfc" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="4e4f7eb0-08ca-4538-b7d2-0247c9f4823b" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:05:15 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="edd65a67-bbb7-488e-84d6-7eb8089d174e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="RechargeButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="a0e06dd6-3d50-40e0-9d13-50b2af19a450" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="47c3af88-20e9-4a2a-a740-fd503b4b40c9" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="dd9cbb07-3fd1-423d-8d3a-160d3774a693" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:05:15 AM" CreatedBy="VMALAKAR" Description="Generic Element_Copy" EnableRetryMechanism="True" ExternalID="" GenElementAction="SetValue" Guid="3f9b936f-947a-464e-b5cf-1d6728963806" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="Amount" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="1b7f71ab-0c1c-4a51-9ccb-56a92234f32f" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="28614ec8-e454-49e7-b969-d5454e3af8e0" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="11a66aea-6d40-4194-b049-b3a56602319b" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="ba79689a-63e2-4744-bf8f-aa8937c4dd65" InitialStringValue="100" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="100" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code cash" ActivityName="select payment method &quot;Cash&quot;" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="e839bd3a-14f8-4ad5-903b-bb308ca945f4" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="7593ea48-1127-413b-9d7c-88791cbfae98" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActDropDownList ActDropDownListAction="SetSelectedValueByText" Active="True" ConfigOutputDS="False" Created="8/21/2018 9:06:08 AM" CreatedBy="VMALAKAR" Description="Drop Down Action" EnableRetryMechanism="True" ExternalID="" Guid="05952c85-55da-4c9a-9d67-3dcc5d49a7d9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="PaymentType" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="3a983572-31d3-4b60-8156-65ff1cde11b4" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDropDownList>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="fe9699b7-5d1a-4876-9422-f67e71aa129b" InitialStringValue="Cash" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Cash" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code cash" ActivityName="click on submit" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="8734e602-2bae-48ec-8ce1-395ba101d5d1" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="1d86d3fa-efef-4898-af9a-8bf62ff1c29b" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:09:10 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="af007553-deaa-4867-b43b-f35438128e93" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="submitButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="29da3703-0acc-4eb5-bda0-564920482a78" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="197f3563-2059-411d-b5d9-5e49fc4aea11" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="52bea1dc-304d-474e-834c-198a83da1440" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code cash" ActivityName="recharge should be successful" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="d0f83ab7-06f5-4717-bdc3-021a44099fec" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="2e132c2d-6e54-4b2b-b6bf-7b9e6fc2fc5b" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:29:59 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetNumberOfElements" Guid="ace73cb7-14a2-40e5-8b65-373b5fef3e8b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//h3[contains(text(),&quot;recharged&quot;)]" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="4598bb64-255d-4069-b23c-45fb83df5f75" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="7a376ecc-0f52-4133-a81f-071290bd23f1" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c385a627-d8a7-496e-b977-9106f979924a" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="6749bcce-bde7-48ca-8bc3-c12458036e56" mExpected="1" Param="Elements Count" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code cash" ActivityName="user should have &quot;1600&quot; amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1d5b344f-675b-44fd-8966-1465f06cb8c6" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="933b9fa2-d0d9-4373-96d8-00525750c05e" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:09:37 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetValue" Guid="6a1630be-0a08-44e7-b6bf-303a5d8788a5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="BalanceTextBox" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="c0c6c2ff-84cf-493e-beaf-b8041341839b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ca8d1f13-9219-4f29-a95c-6b4e634a24d3" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="a5c6d3bb-078b-4f1d-8708-399498ccf127" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="5af00032-197a-401a-ab9f-faac6eae5310" mExpected="{Var Name=p1}" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="97d4c682-268a-4dab-a1f0-e72dee0b4ffb" InitialStringValue="1600" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1600" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code voucher" ActivityName="Recharge screen is launched" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="6fd78e34-8446-4633-b705-68920382ec32" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="4ea59e5f-f713-4ad7-af01-a28a87ac7e79" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="8/21/2018 9:02:39 AM" CreatedBy="VMALAKAR" Description="Goto URL Action" EnableRetryMechanism="False" ExternalID="" Guid="f41f2db8-59c5-411b-ad62-4928beb98d6d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="7b398b58-79e4-44e6-b033-785bbfc07d90" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="http://brijb05:8083/Demo/DOXCOM.html" Value="http://brijb05:8083/Demo/DOXCOM.html" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code voucher" ActivityName="user search for customer id &quot;100&quot;" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="46c816a2-ad8b-44d3-9390-24975c93a083" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="882255a7-b65d-42f5-8b63-362eaf92430b" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:02:57 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="True" ExternalID="" GenElementAction="SendKeys" Guid="c33aacb4-c600-47a9-8b63-95ff4666132f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="CustID" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="f8ef599b-0584-467c-bcfc-a536e8079294" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="106b196d-4fdf-4e87-a0eb-ae03590b6268" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c0f04d11-a739-40ed-8694-462630fb0bb9" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:02:57 AM" CreatedBy="VMALAKAR" Description="Generic Element_search" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="497685a1-c30c-4200-9852-e65ecf09372d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="OpenButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="353516fd-a769-4f38-bb28-fcface0c3a31" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d3843556-bdc0-4fc1-a87b-e9ba36d6edb3" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1278bbf0-5075-4d52-a8a2-fd67355bd91c" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="12d32a8f-a779-46bc-a358-9e3e50519f9d" InitialStringValue="100" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="100" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code voucher" ActivityName="user have initial &quot;1500&quot; amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="56df5388-2737-4981-b468-b16fde5168d8" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="253b4751-8e7c-4450-88c2-ed7039d0e1bb" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:04:43 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="False" ExternalID="" GenElementAction="GetValue" Guid="dca9bd34-5dfe-4084-a8dc-a2af0e430308" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="BalanceTextBox" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="fb9aba67-dcd4-456b-8e37-e68d688394c5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="9f70a5e5-9e32-4b64-9f89-4e169ca8b4d8" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="831045c9-caeb-415e-b826-1be78f923d51" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="42c26ea6-1e68-41fc-893f-4f060661f2bb" InitialStringValue="1500" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1500" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code voucher" ActivityName="user enters recharge for &quot;100&quot; amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="21820563-f491-4aa3-8179-4fb394df1606" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="4e4f7eb0-08ca-4538-b7d2-0247c9f4823b" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:05:15 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="edd65a67-bbb7-488e-84d6-7eb8089d174e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="RechargeButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="a0e06dd6-3d50-40e0-9d13-50b2af19a450" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="47c3af88-20e9-4a2a-a740-fd503b4b40c9" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="dd9cbb07-3fd1-423d-8d3a-160d3774a693" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:05:15 AM" CreatedBy="VMALAKAR" Description="Generic Element_Copy" EnableRetryMechanism="True" ExternalID="" GenElementAction="SetValue" Guid="3f9b936f-947a-464e-b5cf-1d6728963806" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="Amount" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="1b7f71ab-0c1c-4a51-9ccb-56a92234f32f" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="28614ec8-e454-49e7-b969-d5454e3af8e0" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="11a66aea-6d40-4194-b049-b3a56602319b" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="ba79689a-63e2-4744-bf8f-aa8937c4dd65" InitialStringValue="100" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="100" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code voucher" ActivityName="select payment method &quot;Voucher&quot;" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="cbdd8ff0-ca3f-4a5b-bc1e-f1f905b768ec" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="7593ea48-1127-413b-9d7c-88791cbfae98" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActDropDownList ActDropDownListAction="SetSelectedValueByText" Active="True" ConfigOutputDS="False" Created="8/21/2018 9:06:08 AM" CreatedBy="VMALAKAR" Description="Drop Down Action" EnableRetryMechanism="True" ExternalID="" Guid="05952c85-55da-4c9a-9d67-3dcc5d49a7d9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="PaymentType" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="3a983572-31d3-4b60-8156-65ff1cde11b4" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDropDownList>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="fe9699b7-5d1a-4876-9422-f67e71aa129b" InitialStringValue="Voucher" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Voucher" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code voucher" ActivityName="enter vouche code &quot;ABC&quot;" AutomationStatus="Development" Created="8/21/2018 9:08:34 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="0c5d5fc6-77e2-482d-910b-c46b5f23186b" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="fe06e387-555f-4e54-9ce1-d6e1fd1c19a6" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:07:04 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="False" ExternalID="" GenElementAction="SetValue" Guid="58278371-5c92-4d5b-99cc-4dbbf647f7b5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="VoucherNum" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="215ef89f-a7ce-480c-8daa-5f358ca70a4e" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ABC" Value="ABC" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="9352154f-bdd6-42a6-9ccb-82f428f8a48b" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1ce07130-b72e-4f6b-b952-3ff0cce7f145" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 9:08:34 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="74ae9c6c-00f0-4779-9e39-89cfd845ec77" InitialStringValue="ABC" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="ABC" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code voucher" ActivityName="click on submit" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="8b3bc386-b184-4d7a-a907-325636067511" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="1d86d3fa-efef-4898-af9a-8bf62ff1c29b" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:09:10 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="af007553-deaa-4867-b43b-f35438128e93" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="submitButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="29da3703-0acc-4eb5-bda0-564920482a78" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="197f3563-2059-411d-b5d9-5e49fc4aea11" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="52bea1dc-304d-474e-834c-198a83da1440" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code voucher" ActivityName="recharge should be successful" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="63c24eec-7512-46cd-a0a4-a2b83b3efe7d" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="2e132c2d-6e54-4b2b-b6bf-7b9e6fc2fc5b" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:29:59 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetNumberOfElements" Guid="ace73cb7-14a2-40e5-8b65-373b5fef3e8b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//h3[contains(text(),&quot;recharged&quot;)]" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="4598bb64-255d-4069-b23c-45fb83df5f75" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="7a376ecc-0f52-4133-a81f-071290bd23f1" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c385a627-d8a7-496e-b977-9106f979924a" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="6749bcce-bde7-48ca-8bc3-c12458036e56" mExpected="1" Param="Elements Count" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="True" ActivitiesGroupID="Recharge with hard code voucher" ActivityName="user should have &quot;1600&quot; amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="60df0407-9206-4447-8aa5-574555488e62" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="933b9fa2-d0d9-4373-96d8-00525750c05e" PercentAutomated="100%" TargetApplication="Recharge" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:09:37 AM" CreatedBy="VMALAKAR" Description="Generic Element" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetValue" Guid="6a1630be-0a08-44e7-b6bf-303a5d8788a5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="BalanceTextBox" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="c0c6c2ff-84cf-493e-beaf-b8041341839b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ca8d1f13-9219-4f29-a95c-6b4e634a24d3" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="a5c6d3bb-078b-4f1d-8708-399498ccf127" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="5af00032-197a-401a-ab9f-faac6eae5310" mExpected="{Var Name=p1}" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="97d4c682-268a-4dab-a1f0-e72dee0b4ffb" InitialStringValue="1600" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1600" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+<GingerCore.Activities.ActivitiesGroup Created="8/21/2018 8:48:00 AM" CreatedBy="VMALAKAR" Guid="b1f17536-96fa-4ce6-bf3e-41adddd01be9" LastUpdate="1/1/0001 12:00:00 AM" Name="Optimized Activities" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="4ea59e5f-f713-4ad7-af01-a28a87ac7e79" ActivityName="Recharge screen is launched" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" Guid="ef8ae468-41f3-4724-ae22-043cdbc92f6f" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="882255a7-b65d-42f5-8b63-362eaf92430b" ActivityName="user search for customer id %p1" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" Guid="8d1eb6cf-cf2b-4f00-b7b5-7bb0436aec7a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="253b4751-8e7c-4450-88c2-ed7039d0e1bb" ActivityName="user have initial %p1 amount" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" Guid="e01d6ca0-f5f4-4560-8574-08fe880f00ab" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="4e4f7eb0-08ca-4538-b7d2-0247c9f4823b" ActivityName="user enters recharge for %p1 amount" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" Guid="13bd0409-fe5f-42ca-9c97-3af83cfdeaa8" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7593ea48-1127-413b-9d7c-88791cbfae98" ActivityName="select payment method %p1" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" Guid="f671faef-f20a-4c1d-838b-d7e780ce8032" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1d86d3fa-efef-4898-af9a-8bf62ff1c29b" ActivityName="click on submit" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" Guid="81a7d0b8-2e66-46e2-ac68-db00922b8671" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="2e132c2d-6e54-4b2b-b6bf-7b9e6fc2fc5b" ActivityName="recharge should be successful" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" Guid="5502f138-8db7-4552-9389-f37f99b253f5" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="933b9fa2-d0d9-4373-96d8-00525750c05e" ActivityName="user should have %p1 amount" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" Guid="fe50b386-4970-4b76-9eb3-e20a0e9bdbfb" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="fe06e387-555f-4e54-9ce1-d6e1fd1c19a6" ActivityName="enter vouche code %p1" Created="8/21/2018 9:08:34 AM" CreatedBy="VMALAKAR" Guid="bf088420-aff5-4614-bf51-5315d902489f" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+<GingerCore.Activities.ActivitiesGroup Created="8/21/2018 8:48:00 AM" CreatedBy="VMALAKAR" Guid="e14b68ba-f35b-4106-ba05-1210d633f283" LastUpdate="1/1/0001 12:00:00 AM" Name="Optimized Activities - Not in Use" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c62e7a62-5fd3-41d4-9520-544b53211990" ActivityName="enter vouche code" Created="8/21/2018 9:08:34 AM" CreatedBy="VMALAKAR" Guid="6fcaf9a5-e249-43c4-b7c5-3d40400e6d2d" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+<GingerCore.Activities.ActivitiesGroup Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Elapsed="17572.6678" Guid="3226d64b-b515-41d2-ad7d-5d2024491739" LastUpdate="1/1/0001 12:00:00 AM" Name="Recharge with hard code cash" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="52aeabd0-4b51-4370-820e-c9653bafb8ba" ActivityName="Recharge screen is launched" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="6690d704-6d7b-4732-96c9-f818efc9f360" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8e20e239-0eba-4ddb-a543-c2f901552081" ActivityName="user search for customer id &quot;100&quot;" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="d86c93e3-bf3f-4ff8-9d08-ec30e0bcae22" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="2c89a600-7c1e-4945-bdec-104a0b745d27" ActivityName="user have initial &quot;1500&quot; amount" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="cfc76253-9f03-40ac-ae46-22e64588339a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1c55384b-7eec-41f6-8795-a4e74c61acfc" ActivityName="user enters recharge for &quot;100&quot; amount" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="e0958877-fced-4457-8da9-054ddb4035e9" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e839bd3a-14f8-4ad5-903b-bb308ca945f4" ActivityName="select payment method &quot;Cash&quot;" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="8cd0cc98-f26e-4da1-bc3a-2ce61146d21d" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8734e602-2bae-48ec-8ce1-395ba101d5d1" ActivityName="click on submit" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="549e5bcf-3040-4e06-974a-b3ec3ac52183" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d0f83ab7-06f5-4717-bdc3-021a44099fec" ActivityName="recharge should be successful" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="49051179-8a43-4933-a678-18f6112bf36c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1d5b344f-675b-44fd-8966-1465f06cb8c6" ActivityName="user should have &quot;1600&quot; amount" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="d55d89e6-7e98-450f-9b4e-33c1b46da264" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+<GingerCore.Activities.ActivitiesGroup Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Elapsed="11518.7752" Guid="bab8edee-996f-4a22-b217-fe086fb83681" LastUpdate="1/1/0001 12:00:00 AM" Name="Recharge with hard code voucher" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<ActivitiesIdentifiers>
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="6fd78e34-8446-4633-b705-68920382ec32" ActivityName="Recharge screen is launched" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="864bf4a1-8b8d-4c84-ae7e-6b9902f12dac" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="46c816a2-ad8b-44d3-9390-24975c93a083" ActivityName="user search for customer id &quot;100&quot;" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="d68a00a8-379d-40b8-a869-0a9459250239" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="56df5388-2737-4981-b468-b16fde5168d8" ActivityName="user have initial &quot;1500&quot; amount" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="5bb133c6-adce-4b01-bcaa-1b50ecbcc73a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="21820563-f491-4aa3-8179-4fb394df1606" ActivityName="user enters recharge for &quot;100&quot; amount" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="2ba537b5-5777-4bef-918e-70afa3b7f714" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cbdd8ff0-ca3f-4a5b-bc1e-f1f905b768ec" ActivityName="select payment method &quot;Voucher&quot;" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="7c87cb7c-01bb-4539-bd8e-6d0ea9102a2f" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0c5d5fc6-77e2-482d-910b-c46b5f23186b" ActivityName="enter vouche code &quot;ABC&quot;" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="8e4c24b1-4d09-43db-bec4-90577fe4090c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8b3bc386-b184-4d7a-a907-325636067511" ActivityName="click on submit" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="c245c70a-e841-4a31-a9dd-90b6745d5077" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="63c24eec-7512-46cd-a0a4-a2b83b3efe7d" ActivityName="recharge should be successful" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="03209ca3-b6bc-4fe0-a7fe-a2f7d21a56a2" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Activities.ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="60df0407-9206-4447-8aa5-574555488e62" ActivityName="user should have &quot;1600&quot; amount" Created="8/21/2018 9:41:59 AM" CreatedBy="VMALAKAR" Guid="03a64658-a766-4ad9-ae5b-3a9e6606c05c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ActivitiesIdentifiers>
+
+<Tags>
+</Tags>
+</GingerCore.Activities.ActivitiesGroup>
+</ActivitiesGroups>
+
+<BFFlowControls>
+</BFFlowControls>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Recharge" Created="8/21/2018 8:48:00 AM" CreatedBy="VMALAKAR" Guid="a90fdc01-c033-406c-bc2d-9458f3e11697" LastExecutingAgentName="Chrome" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>

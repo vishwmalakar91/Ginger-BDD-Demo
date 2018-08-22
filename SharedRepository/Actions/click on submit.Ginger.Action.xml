@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:09:10 AM" CreatedBy="VMALAKAR" Description="click on submit" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="af007553-deaa-4867-b43b-f35438128e93" LastUpdate="8/21/2018 9:59:16 AM" LastUpdateBy="VMALAKAR" LocateBy="ByID" LocateValue="submitButton" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="1" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="29da3703-0acc-4eb5-bda0-564920482a78" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="197f3563-2059-411d-b5d9-5e49fc4aea11" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="52bea1dc-304d-474e-834c-198a83da1440" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>

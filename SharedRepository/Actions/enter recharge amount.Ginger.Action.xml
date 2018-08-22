@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:05:15 AM" CreatedBy="VMALAKAR" Description="enter recharge amount" EnableRetryMechanism="True" ExternalID="" GenElementAction="SetValue" Guid="3f9b936f-947a-464e-b5cf-1d6728963806" LastUpdate="8/21/2018 9:56:11 AM" LastUpdateBy="VMALAKAR" LocateBy="ByID" LocateValue="Amount" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="1" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="1b7f71ab-0c1c-4a51-9ccb-56a92234f32f" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=p1}" Value="{Var Name=p1}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="28614ec8-e454-49e7-b969-d5454e3af8e0" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="11a66aea-6d40-4194-b049-b3a56602319b" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>

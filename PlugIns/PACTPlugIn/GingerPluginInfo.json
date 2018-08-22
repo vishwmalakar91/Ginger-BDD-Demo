@@ -1,0 +1,7 @@
+{
+    "PlugInName": "PACTPlugIn",
+	"PluginVersion": "1.0.0",
+    "DllFile": "GingerPACTPlugIn.dll",
+	"DllRelativePath": "\\Resources\\",
+	"ClassName": "GingerPACTPlugIn.PACTPlugIn"
+}

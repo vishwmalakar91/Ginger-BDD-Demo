@@ -1,0 +1,33 @@
+{
+  "provider": {
+    "name": "Something API"
+  },
+  "consumer": {
+    "name": "Consumer"
+  },
+  "interactions": [
+    {
+      "description": "address",
+      "provider_state": "Address",
+      "request": {
+        "method": "post",
+        "path": "/Address3",
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Accept": "application/x-www-form-urlencoded"
+        },
+        "body": "ZipCode=411013"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": "{\"Address\": \"Magarpatta,Pune\"}"
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecificationVersion": "1.1.0"
+  }
+}

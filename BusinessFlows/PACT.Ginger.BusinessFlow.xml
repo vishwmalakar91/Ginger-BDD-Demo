@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.BusinessFlow Active="True" Created="8/21/2018 11:35:11 AM" CreatedBy="VMALAKAR" EnableActivitiesVariablesDependenciesControl="False" Guid="e0c2b1ac-b620-4b16-beff-99c6aa37d9a1" LastUpdate="8/21/2018 12:37:36 PM" LastUpdateBy="VMALAKAR" Mandatory="False" Name="PACT" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="17">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="8/21/2018 11:35:11 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="7d3ecfd7-bc30-4a4b-91ce-ad9f1f5e226f" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Pact" Version="0">
+<Acts>
+<GingerCore.Actions.PlugIns.ActPlugIn Active="True" ConfigOutputDS="False" Created="8/21/2018 11:35:21 AM" CreatedBy="VMALAKAR" Description="Start Mock Server" EnableRetryMechanism="False" ExternalID="" Guid="efa5a9ba-48eb-4768-abbd-c833bef6d5f7" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="075c596e-986d-4a84-8d37-c3821aafd1e8" Param="PluginID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="PACT" Value="PACT" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="6efee771-1b6f-4c20-97fc-bf961df87864" Param="PlugInActionID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Start" Value="Start" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="b3b14d1a-c5a2-4083-a225-9fba03f3612b" Param="PluginDescription" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Start Mock Server" Value="Start Mock Server" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="9983713f-7d0e-4435-9d2e-9f71a1827ad1" Param="PluginUserDescription" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Start the PACT Server, Pact server is a stand-alone interactions reorder and verifier" Value="Start the PACT Server, Pact server is a stand-alone interactions reorder and verifier" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1d1df10f-14ce-45ed-bece-a899b2a4a3c0" Param="PluginUserRecommendedUseCase" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Should be used for starting the PACT server in order for it to be ready to get Interactions load." Value="Should be used for starting the PACT server in order for it to be ready to get Interactions load." />
+<Amdocs.Ginger.Repository.ActInputValue Guid="88920caf-716e-4c7a-b8b8-2206fd10c09d" Param="Port" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="2222" Value="2222" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="484468c1-96d0-4e1a-b6de-b2a29376bc9e" Param="DynamicPort" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="false" Value="false" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.PlugIns.ActPlugIn>
+<GingerCore.Actions.PlugIns.ActPlugIn Active="True" ConfigOutputDS="False" Created="8/21/2018 11:35:54 AM" CreatedBy="VMALAKAR" Description="Load Interactions from JSON File" EnableRetryMechanism="False" ExternalID="" Guid="5e87ebde-fab4-46dd-bc9a-5a7bd6323e3b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="66ac38a8-f8c1-47a1-9c51-5149c50b830d" Param="PluginID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="PACT" Value="PACT" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="017130dc-ba33-4c6d-8a72-9325ff73b8a6" Param="PlugInActionID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="LoadInteractionsFile" Value="LoadInteractionsFile" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d5624e54-2c1c-48f3-bebe-a72859063c04" Param="PluginDescription" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Load Interactions from JSON File" Value="Load Interactions from JSON File" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1f24b6b6-8b70-467b-9848-a8a6e92273a7" Param="PluginUserDescription" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Loading a Pact server Interactions (expected requests &amp; responses) from JSON format file" Value="Loading a Pact server Interactions (expected requests &amp; responses) from JSON format file" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="9b8f52e4-d984-43a2-ba07-7412bc20f6cf" Param="PluginUserRecommendedUseCase" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Load Interaction in order to fire real API requests against it." Value="Load Interaction in order to fire real API requests against it." />
+<Amdocs.Ginger.Repository.ActInputValue Guid="dd01ad0a-5e13-43f5-b09d-3ded86870a40" Param="FileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="~\documents\pact\pacttojson21_08_2018_17_02_08\consumer-something_api.json" Value="~\documents\pact\pacttojson21_08_2018_17_02_08\consumer-something_api.json" />
+</InputValues>
+
+<ReturnValues>
+
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.PlugIns.ActPlugIn>
+<GingerCore.Actions.WebServices.ActWebAPIRest Active="True" ConfigOutputDS="False" Created="8/21/2018 11:46:01 AM" CreatedBy="VMALAKAR" Description="WebAPI REST Action" EnableRetryMechanism="False" ExternalID="" Guid="436dda63-62f0-4571-9401-b453d19c9fa9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<DynamicElements>
+</DynamicElements>
+
+<FlowControls>
+</FlowControls>
+
+<HttpHeaders>
+</HttpHeaders>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="98dd2d9a-985c-47c1-9a53-2e96a45ad603" Param="UseLegacyJSONParsing" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="29d7c7da-2c86-4c7f-8140-2fc071389f71" Param="EndPointURL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="http://localhost:2222/Address" Value="http://localhost:2222/Address" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="5645df39-422d-4c93-859f-6bb52ca8e627" Param="URLUser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ccb0d51b-8a1e-4047-b101-aef550f49249" Param="URLDomain" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="65e9c26b-2c18-4751-8e9a-2dbfa271e810" Param="URLPass" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c3e7d71f-92d1-48c3-bccd-ae3cedb3ce84" Param="NetworkCredentialsRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Default" Value="Default" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="de8a79c8-0df2-47ac-9bb5-fae36caae25a" Param="RequestBodyTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeText" Value="FreeText" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="3a118f65-51dd-4355-8242-2ca2d4ac8e61" Param="CertificateTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="AllSSL" Value="AllSSL" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="02160a9f-0366-4106-9e4a-293a452998bb" Param="DoNotFailActionOnBadRespose" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="881bd1ce-e38b-4ac7-9785-013b5ded5b36" Param="RequestBody" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d8439963-1ea8-4581-b1c9-47f1bca4fe17" Param="ImportRequestFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="7ed759d1-4294-4d7e-90dc-8fe6d5cfd952" Param="CertificatePath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="02ddfba5-ab32-45a7-9ba6-0390e8212e80" Param="CertificatePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="bc8c9adb-defe-40f8-9f9a-b2bd890940aa" Param="ImportCetificateFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="f631a51b-995e-4ca4-afdf-9599e15a768b" Param="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="None" Value="None" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="06f21f41-8d8d-4db7-b3d3-b61e808ebf14" Param="AuthorizationType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="NoAuthentication" Value="NoAuthentication" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d0cee914-97dc-423c-b694-dab27c2251f6" Param="AuthUsername" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="6de3f3ce-e455-4592-a39f-da9f539eaf9f" Param="AuthPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="a22435d5-728c-4a32-aae1-fe816b6d67ad" Param="CookieMode" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="New" Value="New" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="3f5b6225-acd6-4c00-a078-3ea8620109aa" Param="RequestType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="POST" Value="POST" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="8ddee622-e41c-4fdc-a045-ecf37e8633f9" Param="ReqHttpVersion" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="HTTPV11" Value="HTTPV11" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="2efa78e4-338d-4297-88bc-f46ca80a21fe" Param="ContentType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="XwwwFormUrlEncoded" Value="XwwwFormUrlEncoded" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="0cc3616a-9d67-4de9-816c-15ee0ca65b47" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="XwwwFormUrlEncoded" Value="XwwwFormUrlEncoded" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="e4de0265-6ff9-496a-a720-909e65f15505" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<RequestKeyValues>
+<GingerCore.Actions.WebAPIKeyBodyValues Guid="5cee9d20-40ec-46a8-b051-210c5403c2c8" Param="ZipCode" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="411013" Value="411013" ValueType="Text" />
+</RequestKeyValues>
+
+<ReturnValues>
+
+
+
+
+
+
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.WebServices.ActWebAPIRest>
+<GingerCore.Actions.PlugIns.ActPlugIn Active="True" ConfigOutputDS="False" Created="8/21/2018 11:37:56 AM" CreatedBy="VMALAKAR" Description="Clear Server Interactions" EnableRetryMechanism="False" ExternalID="" Guid="d6a8a38a-939d-454c-9ea4-102e724df02a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="4e0f6cee-5a28-43b3-81ac-551a2ff5bace" Param="PluginID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="PACT" Value="PACT" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="700155ae-c284-4541-a57c-bb13173d7eb5" Param="PlugInActionID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ClearInteractions" Value="ClearInteractions" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="83bffeea-e0c0-493a-a4d5-cd086ea31ee2" Param="PluginDescription" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Clear Server Interactions" Value="Clear Server Interactions" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="e39d7493-3e73-4745-b4a3-e2366a6e64ba" Param="PluginUserDescription" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Clear all pre-defined PACT server Interactions" Value="Clear all pre-defined PACT server Interactions" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="cff2deb0-37ac-4bbf-b17d-d31f5eb8b0e9" Param="PluginUserRecommendedUseCase" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Should be used for clearing all existing Interactions before loading new ones." Value="Should be used for clearing all existing Interactions before loading new ones." />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.PlugIns.ActPlugIn>
+<GingerCore.Actions.PlugIns.ActPlugIn Active="True" ConfigOutputDS="False" Created="8/21/2018 11:38:12 AM" CreatedBy="VMALAKAR" Description="Stop Mock Server" EnableRetryMechanism="False" ExternalID="" Guid="30d2e152-5a07-4cd1-9a41-a00860c07cc3" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="c0a22b5d-a359-486e-b8ae-c8698990134d" Param="PluginID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="PACT" Value="PACT" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="5d4c89af-cdef-48bc-9377-71e2aeeceacc" Param="PlugInActionID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Stop" Value="Stop" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="4c4f7d7b-84bd-4aa5-9d7b-1243a4c3e467" Param="PluginDescription" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Stop Mock Server" Value="Stop Mock Server" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1b554835-e2a5-471e-b9bc-0ffe809b47a3" Param="PluginUserDescription" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Stops the PACT Server" Value="Stops the PACT Server" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="0302f5d2-afb3-4d3d-ad51-bd8e1d2267f1" Param="PluginUserRecommendedUseCase" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Should be used for stopping the PACT server" Value="Should be used for stopping the PACT server" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.PlugIns.ActPlugIn>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<BFFlowControls>
+</BFFlowControls>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Pact" Created="8/21/2018 11:44:17 AM" CreatedBy="VMALAKAR" Guid="8e3ccc9e-5ef1-41a4-a769-fe264ed4f1b5" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>

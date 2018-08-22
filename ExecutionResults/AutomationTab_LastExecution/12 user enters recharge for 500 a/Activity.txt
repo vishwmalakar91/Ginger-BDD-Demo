@@ -1,0 +1,1 @@
+{"Seq":12,"GUID":"1f3a00d1-eb85-4645-9e27-bfd197402bb9","ActivityName":"user enters recharge for \"500\" amount","StartTimeStamp":"2018-08-21T10:09:31.1895171Z","EndTimeStamp":"2018-08-21T10:09:31.9896706Z","Elapsed":799,"RunStatus":"Passed","VariablesBeforeExec":["recharge_amount_:_500_:_"],"VariablesAfterExec":["recharge_amount_:_500_:_"]}

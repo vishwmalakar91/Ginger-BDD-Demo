@@ -1,0 +1,1 @@
+{"Seq":2,"GUID":"d631c5a2-0fb0-4587-bc43-85d3aa57b37d","ActivityName":"user search for customer id \"100\"","StartTimeStamp":"2018-08-21T10:09:16.4522032Z","EndTimeStamp":"2018-08-21T10:09:17.4115182Z","Elapsed":958,"RunStatus":"Passed","VariablesBeforeExec":["customer_id_:_100_:_"],"VariablesAfterExec":["customer_id_:_100_:_"]}

@@ -1,0 +1,1 @@
+{"Seq":9,"GUID":"e9f76d91-0340-4b31-b4c1-9f7b7bfdca32","ActivityName":"Recharge screen is launched","StartTimeStamp":"2018-08-21T10:09:26.0861594Z","EndTimeStamp":"2018-08-21T10:09:28.6172403Z","Elapsed":2530,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

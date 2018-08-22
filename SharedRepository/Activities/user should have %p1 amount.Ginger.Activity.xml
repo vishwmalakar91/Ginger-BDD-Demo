@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="ContinueActionsRunOnFailure" Active="False" ActivityName="user should have %p1 amount" AutomationStatus="Development" Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="933b9fa2-d0d9-4373-96d8-00525750c05e" LastUpdate="8/21/2018 9:57:45 AM" LastUpdateBy="VMALAKAR" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Recharge" Version="1">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 9:09:37 AM" CreatedBy="VMALAKAR" Description="check final amount" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetValue" Guid="6a1630be-0a08-44e7-b6bf-303a5d8788a5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="BalanceTextBox" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="c0c6c2ff-84cf-493e-beaf-b8041341839b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ca8d1f13-9219-4f29-a95c-6b4e634a24d3" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="a5c6d3bb-078b-4f1d-8708-399498ccf127" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="5af00032-197a-401a-ab9f-faac6eae5310" mExpected="{Var Name=p1}" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+<System.Guid>24f23442-9df3-4c3f-9d9f-e72d1d66c752</System.Guid>
+<System.Guid>916d18e7-5d0b-4318-b66f-f0870f5c81ff</System.Guid>
+<System.Guid>920ccb9f-d4ed-4e79-be98-32d3ee9b8565</System.Guid>
+<System.Guid>f3b2106e-295a-404b-a7b2-3d9b31bdc194</System.Guid>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/21/2018 8:54:32 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" Guid="97d4c682-268a-4dab-a1f0-e72dee0b4ffb" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="p1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

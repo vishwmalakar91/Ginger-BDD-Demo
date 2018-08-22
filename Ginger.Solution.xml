@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<Ginger.Environments.Solution AlmType="QC" Created="8/21/2018 6:30:24 AM" CreatedBy="VMALAKAR" Guid="3836e754-9f8c-4744-90a7-cbb02227519f" LastBusinessFlowFileName="C:\Users\vmalakar\Desktop\SDET\BDD\SDET_BDD\BusinessFlows\PACT.Ginger.BusinessFlow.xml" LastUpdate="8/21/2018 11:44:12 AM" LastUpdateBy="VMALAKAR" Name="SDET_BDD" ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="3">
+<ApplicationPlatforms>
+<GingerCore.Platforms.ApplicationPlatform AppName="Recharge" CoreGUID="00000000-0000-0000-0000-000000000000" Created="8/21/2018 6:31:47 AM" CreatedBy="VMALAKAR" Guid="4bbaabf7-912a-4b35-acc5-b8cf7d12d4ac" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
+<GingerCore.Platforms.ApplicationPlatform AppName="Pact" CoreGUID="00000000-0000-0000-0000-000000000000" Created="8/21/2018 11:40:35 AM" CreatedBy="VMALAKAR" Description="WebServices Application" Guid="14ab41f2-a007-4108-ac7c-4a23effa8e6a" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" Version="0" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<Ginger.Reports.ExecutionLoggerConfiguration Created="8/21/2018 6:31:47 AM" CreatedBy="VMALAKAR" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="0619aced-76a3-4776-9894-93f1aa61604d" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<ExternalItemsFields>
+</ExternalItemsFields>
+
+<HTMLReportsConfigurationSetList>
+<Ginger.Reports.HTMLReportsConfiguration Created="8/21/2018 6:31:47 AM" CreatedBy="VMALAKAR" Guid="8464ceee-20f0-4c97-8adf-9e594f94e05d" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsAutomaticProdIsEnabled="False" HTMLReportsFolder="~\HTMLReports\" HTMLReportTemplatesSeq="0" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" LimitReportFolderSize="False" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</HTMLReportsConfigurationSetList>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+</Ginger.Environments.Solution>

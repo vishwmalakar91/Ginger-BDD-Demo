@@ -1,0 +1,1 @@
+{"Seq":7,"GUID":"b57277b5-beec-4312-ae45-7261945662e1","ActivityName":"recharge should be successful","StartTimeStamp":"2018-08-21T10:09:20.8749938Z","EndTimeStamp":"2018-08-21T10:09:24.5791434Z","Elapsed":3703,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

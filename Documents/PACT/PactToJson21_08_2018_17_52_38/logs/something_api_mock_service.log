@@ -1,0 +1,25 @@
+﻿2018-08-21 17:52:38.869 +05:30 [Info] Started http://localhost:3443
+2018-08-21 17:52:38.872 +05:30 [Info] Test context ServiceVirtualization.AddInteraction PACTTextEditor.ExportToJson UCTextEditor.ToolBarButtonClick RoutedEventHandlerInfo.InvokeHandler EventRoute.InvokeHandlersImpl UIElement.RaiseEventImpl UIElement.RaiseEvent ButtonBase.OnClick Button.OnClick ButtonBase.OnMouseLeftButtonUp UIElement.OnMouseLeftButtonUpThunk MouseButtonEventArgs.InvokeEventHandler RoutedEventArgs.InvokeHandler RoutedEventHandlerInfo.InvokeHandler EventRoute.InvokeHandlersImpl UIElement.ReRaiseEventAs UIElement.OnMouseUpThunk MouseButtonEventArgs.InvokeEventHandler RoutedEventArgs.InvokeHandler RoutedEventHandlerInfo.InvokeHandler EventRoute.InvokeHandlersImpl UIElement.RaiseEventImpl UIElement.RaiseTrustedEvent UIElement.RaiseEvent InputManager.ProcessStagingArea InputManager.ProcessInput InputProviderSite.ReportInput HwndMouseInputProvider.ReportInput HwndMouseInputProvider.FilterMessage HwndSource.InputFilterMessage HwndWrapper.WndProc HwndSubclass.DispatcherCallbackOperation ExceptionWrapper.InternalRealCall ExceptionWrapper.TryCatchWhen Dispatcher.LegacyInvokeImpl HwndSubclass.SubclassWndProc UnsafeNativeMethods.DispatchMessage Dispatcher.PushFrameImpl Dispatcher.PushFrame Application.RunDispatcher Application.RunInternal Application.Run App.Main
+2018-08-21 17:52:38.874 +05:30 [Info] Registered expected interaction POST \Address
+2018-08-21 17:52:38.874 +05:30 [Debug] {
+  "description": "address",
+  "provider_state": "Address",
+  "request": {
+    "method": "post",
+    "path": "\\Address",
+    "headers": {
+      "Content-Type": "x-www-form-urlencodedn",
+      "Accept": "x-www-form-urlencodedn"
+    },
+    "body": "{\"ZipCode\":\"411013\"}"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "x-www-form-urlencoded"
+    },
+    "body": "{\"Address\": \"Magarpatta,Pune\"}"
+  }
+}
+2018-08-21 17:52:38.876 +05:30 [Info] Cleared interactions
+2018-08-21 17:52:38.877 +05:30 [Info] Stopped http://localhost:3443

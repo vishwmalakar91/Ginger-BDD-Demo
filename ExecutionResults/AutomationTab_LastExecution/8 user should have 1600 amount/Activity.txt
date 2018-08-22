@@ -1,0 +1,1 @@
+{"Seq":8,"GUID":"81490715-5504-4660-946f-8913f0fb99b8","ActivityName":"user should have \"1600\" amount","StartTimeStamp":"2018-08-21T10:09:25.0213374Z","EndTimeStamp":"2018-08-21T10:09:25.6844169Z","Elapsed":662,"RunStatus":"Passed","VariablesBeforeExec":["final_amoumnt_:_1600_:_"],"VariablesAfterExec":["final_amoumnt_:_1600_:_"]}

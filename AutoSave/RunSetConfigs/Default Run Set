@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<Ginger.Run.RunSetConfig Created="8/21/2018 9:20:19 AM" CreatedBy="VMALAKAR" Guid="62d099c3-a2b1-40a0-aabf-a762ec3e985f" LastUpdate="8/21/2018 9:20:19 AM" LastUpdateBy="VMALAKAR" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000" RunModeParallel="True" RunWithAnalyzer="True" Version="1">
+<GingerRunners>
+<Ginger.Run.GingerRunner Active="True" Created="8/21/2018 9:20:19 AM" CreatedBy="VMALAKAR" FilterExecutionByTags="False" Guid="1ef4a412-9366-491c-a18e-47cb45eed17c" LastUpdate="1/1/0001 12:00:00 AM" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" Selected="False" UseSpecificEnvironment="False" Version="0">
+<ApplicationAgents>
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+</BusinessFlowsRunList>
+
+<FilterExecutionTags>
+</FilterExecutionTags>
+</Ginger.Run.GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+</RunSetActions>
+
+<Tags>
+</Tags>
+</Ginger.Run.RunSetConfig>

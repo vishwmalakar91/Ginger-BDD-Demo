@@ -1,0 +1,1 @@
+{"Seq":11,"GUID":"aff5cfd9-d32d-4a14-abc9-824c09172de2","ActivityName":"user have initial \"1500\" amount","StartTimeStamp":"2018-08-21T10:09:30.5411999Z","EndTimeStamp":"2018-08-21T10:09:30.7356647Z","Elapsed":193,"RunStatus":"Passed","VariablesBeforeExec":["initial_amount_:_1500_:_"],"VariablesAfterExec":["initial_amount_:_1500_:_"]}

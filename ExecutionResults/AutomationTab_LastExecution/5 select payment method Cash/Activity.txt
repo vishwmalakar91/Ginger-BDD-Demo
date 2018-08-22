@@ -1,0 +1,1 @@
+{"Seq":5,"GUID":"64a641c0-c7ba-4d2a-8e0f-0880ef6a1626","ActivityName":"select payment method \"Cash\"","StartTimeStamp":"2018-08-21T10:09:19.71739Z","EndTimeStamp":"2018-08-21T10:09:19.9613771Z","Elapsed":243,"RunStatus":"Passed","VariablesBeforeExec":["payment_method_:_Cash_:_"],"VariablesAfterExec":["payment_method_:_Cash_:_"]}
