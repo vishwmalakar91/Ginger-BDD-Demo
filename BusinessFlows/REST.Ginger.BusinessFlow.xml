@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.BusinessFlow Active="True" Created="8/23/2018 5:30:02 AM" CreatedBy="VMALAKAR" EnableActivitiesVariablesDependenciesControl="False" Guid="78326d91-4b08-4924-8872-43f71026773d" LastUpdate="8/23/2018 7:49:23 AM" LastUpdateBy="VMALAKAR" Mandatory="False" Name="REST" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="30">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="8/23/2018 5:30:02 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="0ad8e7c9-9353-439a-9d32-7e955b92640a" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Pact" Version="0">
+<Acts>
+<GingerCore.Actions.WebServices.ActWebAPIRest Active="True" ConfigOutputDS="False" Created="8/23/2018 5:36:41 AM" CreatedBy="VMALAKAR" Description="WebAPI REST Action GET" EnableRetryMechanism="False" ExternalID="" Guid="6ccfcae0-9338-4b27-958c-d306a14d5e46" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<DynamicElements>
+</DynamicElements>
+
+<FlowControls>
+</FlowControls>
+
+<HttpHeaders>
+</HttpHeaders>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="b0182052-461b-4af2-b0a1-c458e7dc4e5b" Param="UseLegacyJSONParsing" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="3e2f86a7-0ba0-4207-804f-3f41778e75b9" Param="EndPointURL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="https://reqres.in/api/users/{Var Name=id}" Value="https://reqres.in/api/users/{Var Name=id}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1949e098-6a28-419d-8d61-44f26e6076f1" Param="URLUser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="4a1fa994-86f8-466b-8ff1-a9a159be3509" Param="URLDomain" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ae9af1d4-11ed-4069-90ca-70d04959b913" Param="URLPass" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="54a40646-e32c-490b-b72d-657f4c522395" Param="NetworkCredentialsRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Default" Value="Default" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="6cb7d426-a7f6-4980-a630-a0642941b4ba" Param="RequestBodyTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeText" Value="FreeText" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="2c126ea2-d0d5-4c96-82be-7486a8538e41" Param="CertificateTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="AllSSL" Value="AllSSL" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ead58b71-a3ba-4c65-95ba-230afe183ee1" Param="DoNotFailActionOnBadRespose" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="044658aa-7f6d-4c41-b2dd-bd729ba9f8d4" Param="RequestBody" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d0e578d6-2594-4c8e-b9c0-9fed8bed8823" Param="ImportRequestFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="6d84d394-69df-4f55-837e-db4be0be222a" Param="CertificatePath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="2e78dc4a-3d86-4d09-80cf-068d62347cc8" Param="CertificatePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="6d9a6e5b-0db6-4639-97c8-dd38186c3a15" Param="ImportCetificateFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="610a47df-8c11-4931-92cb-7cb1e558e8fc" Param="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="None" Value="None" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="29b9fb9c-2a2f-4cf6-abf3-d7c98b3da691" Param="AuthorizationType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="NoAuthentication" Value="NoAuthentication" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="283ff94a-3d62-48bd-add5-5e486ba044c0" Param="AuthUsername" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="415c789f-2ff7-44f7-a1d0-8e6afb71dedb" Param="AuthPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="5274a3f1-43be-4b7a-9b16-9fffcd8deb0e" Param="CookieMode" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="New" Value="New" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="eadb379b-657b-48c7-9c52-93c56383fc1b" Param="RequestType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="GET" Value="GET" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="f7b21c83-2722-4486-abf0-d0ca6cef6c8e" Param="ReqHttpVersion" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="HTTPV11" Value="HTTPV11" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="8c80b50d-f450-4e1f-9db5-d7a5554f9bc7" Param="ContentType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="JSon" Value="JSon" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="6a535a50-efbc-46fa-9f1f-717a8d91a6ae" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="JSon" Value="JSon" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d06a824a-c2c4-40b2-93b9-443846e59dbb" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<RequestKeyValues>
+</RequestKeyValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="29bece5e-7a49-4395-a355-2200533aaa46" mExpected="{Var Name=id}" Param="data.id" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.WebServices.ActWebAPIRest>
+<GingerCore.Actions.WebServices.ActWebAPIRest Active="True" ConfigOutputDS="False" Created="8/23/2018 5:36:41 AM" CreatedBy="VMALAKAR" Description="WebAPI REST POST" EnableRetryMechanism="False" ExternalID="" Guid="4d1942d4-70ed-41d6-890f-07d464527954" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<DynamicElements>
+</DynamicElements>
+
+<FlowControls>
+</FlowControls>
+
+<HttpHeaders>
+</HttpHeaders>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="d09aec0d-1606-4f58-b6aa-9a2a202999d1" Param="UseLegacyJSONParsing" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1f5c6eeb-0873-4f95-b407-d8523b855ec1" Param="EndPointURL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="https://reqres.in/api/users/" Value="https://reqres.in/api/users/" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="248933ef-5910-4875-896b-58c0dd8c2a19" Param="URLUser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="7e661e1b-d3e1-48b0-9486-28affc0fba74" Param="URLDomain" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="393e9791-86a3-4f3c-9864-a949669f0be2" Param="URLPass" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ba8e4ea3-d997-44a2-873a-45605e9dc01a" Param="NetworkCredentialsRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Default" Value="Default" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="55f8bcda-b2d4-420a-acc8-f8596f5061aa" Param="RequestBodyTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeText" Value="FreeText" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1a5a3a37-f834-4d4b-925f-8bef3337bfbf" Param="CertificateTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="AllSSL" Value="AllSSL" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="a7f137cf-1421-432c-ad61-29ee1f5125f8" Param="DoNotFailActionOnBadRespose" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ca1c0bf6-32a1-46dc-9333-2ee50842f4d6" Param="RequestBody" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{&#xD;&#xA;    &quot;name&quot;: &quot;{Var Name=Name}&quot;,&#xD;&#xA;    &quot;job&quot;: &quot;{Var Name=Job}&quot;&#xD;&#xA;}" Value="{&#xD;&#xA;    &quot;name&quot;: &quot;{Var Name=Name}&quot;,&#xD;&#xA;    &quot;job&quot;: &quot;{Var Name=Job}&quot;&#xD;&#xA;}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="833858f1-39ee-4f26-9a6e-9a6baca036e1" Param="ImportRequestFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="82dd9c83-e553-4771-af92-dd1e3744a418" Param="CertificatePath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="5196dfa0-e497-4216-ad69-04545cefc367" Param="CertificatePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="e8672a32-1229-42cf-826c-3d2ce089bdc6" Param="ImportCetificateFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="4ac807da-f034-4642-b27a-da9d27780cf0" Param="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="None" Value="None" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="3c61d9b4-68a5-4bba-8a14-253d6ffc2e29" Param="AuthorizationType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="NoAuthentication" Value="NoAuthentication" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="62b95afc-7cc4-41de-9be8-bc97d4898331" Param="AuthUsername" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="a7e9dbd5-fc84-4eaa-a4e6-48ec24ac0579" Param="AuthPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="f7548382-239c-4b4f-9dcb-f596729e6bb2" Param="CookieMode" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="New" Value="New" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="6774775b-7bb7-40ef-a39b-1dcb092afd55" Param="RequestType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="POST" Value="POST" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="be36794e-bdcb-47d7-8d3c-d17e1ced4f69" Param="ReqHttpVersion" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="HTTPV11" Value="HTTPV11" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="441c28bb-7bc7-42db-97a2-df6650326bb2" Param="ContentType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="JSon" Value="JSon" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="21ab72c1-83b8-45ca-8282-c9c25192893f" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="JSon" Value="JSon" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c68fe257-18e2-4a91-8af8-f2bd24a50865" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<RequestKeyValues>
+</RequestKeyValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="8a0a9b61-7c92-4bd7-842b-ac18e4144020" mExpected="{Var Name=Name}" Param="name" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreTo="None" StoreToValue="" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="a84df80b-1df7-43ec-963a-28355ac34025" mExpected="{Var Name=Job}" Param="job" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.WebServices.ActWebAPIRest>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/23/2018 5:41:48 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" ExternalID="" Guid="30370669-063e-49ff-8b18-4e91c73d3e82" InitialStringValue="2" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="id" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="2" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="8/23/2018 5:59:36 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" ExternalID="" Guid="0153fabe-67ad-4449-b316-58ca413d00c6" InitialStringValue="leader" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Job" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="leader" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="8/23/2018 6:00:08 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" ExternalID="" Guid="a88c0167-8c30-4351-94ad-27347740c0ed" InitialStringValue="Vishwa" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Name" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Vishwa" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="with excel" AutomationStatus="Development" Created="8/23/2018 6:58:24 AM" CreatedBy="VMALAKAR" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="93418492-fbf1-48c4-9460-97182d418f86" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Pact" Version="0">
+<Acts>
+<GingerCore.Actions.ActSetVariableValue Active="True" ConfigOutputDS="False" Created="8/23/2018 7:12:23 AM" CreatedBy="VMALAKAR" Description="Set Variable Action-init" EnableRetryMechanism="False" ExternalID="" Guid="fa388480-364b-49e6-a875-22b5f6508386" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="ResetValue" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" VariableName="Counter" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="{Var Name=Counter}=6" Created="8/23/2018 7:12:54 AM" CreatedBy="VMALAKAR" FlowControlAction="StopBusinessFlow" Guid="1b250f9e-f77b-4ddd-9df6-9e1a29a82c4e" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="{Var Name=Counter}&lt;6" Created="8/23/2018 7:13:14 AM" CreatedBy="VMALAKAR" FlowControlAction="GoToAction" Guid="84377957-e3dd-4473-90a8-6d926cb3e714" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="84a6a3ef-a937-4641-bc69-a8efe7efc398#GUID_NAME#Excel Action" Version="0" />
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="e75b1ce1-0e28-4064-958d-05bcd3788406" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActSetVariableValue>
+<GingerCore.Actions.ActExcel Active="True" ColMappingRules="" ConfigOutputDS="False" Created="8/23/2018 6:58:34 AM" CreatedBy="VMALAKAR" Description="Excel Action" EnableRetryMechanism="False" ExcelActionType="ReadData" ExcelFileName="~\DOCUMENTS\DATA.XLSX" ExternalID="" Guid="84a6a3ef-a937-4641-bc69-a8efe7efc398" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SelectAllRows="False" SelectRowsWhere="ID={Var Name=Counter}" SheetName="Sheet1" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="6e1a5d0c-3bcf-489d-95f7-d43c53c2e352" Param="ColMappingRules" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="b9824c05-973f-4f50-8656-0fec6435b72b" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="~\DOCUMENTS\DATA.XLSX" Value="~\DOCUMENTS\DATA.XLSX" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="f3b88d94-fb3a-41c4-b26d-e19c18bf7c49" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Sheet1" Value="Sheet1" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="0f10d999-692b-4565-a634-a8b7d0bb7f0d" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID={Var Name=Counter}" Value="ID={Var Name=Counter}" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="f164200d-73ae-4cfe-8c43-aff527e39175" Param="ID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="ID" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="4d125cc7-d13d-4f65-9da9-d029eb5d7135" Param="FIRST_NAME" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="FIRST_NAME" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="8deb3aae-d815-48b3-81b4-0f42a698fff8" Param="LAST_NAME" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="LAST_NAME" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActExcel>
+<GingerCore.Actions.WebServices.ActWebAPIRest Active="True" ConfigOutputDS="False" Created="8/23/2018 5:36:41 AM" CreatedBy="VMALAKAR" Description="WebAPI REST Action GET" EnableRetryMechanism="False" ExternalID="" Guid="86207b83-c604-4e87-9a4b-d604e8bac1a0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<DynamicElements>
+</DynamicElements>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{ActionStatus}&quot; = &quot;Passed&quot;" Created="8/23/2018 7:32:56 AM" CreatedBy="VMALAKAR" FlowControlAction="GoToAction" Guid="7abb306f-39b8-47eb-8451-bebadbe1ea03" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="173856db-bee6-4ecf-83d0-3a0a6a088874#GUID_NAME#Excel Action_write_Pass" Version="0" />
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="8/23/2018 7:33:03 AM" CreatedBy="VMALAKAR" FlowControlAction="GoToAction" Guid="597b454b-de71-45e5-ad17-f23ac69a24fa" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="e89c0c19-5bf5-457f-b045-bb988ed33ca6#GUID_NAME#Excel Action_write_fail" Version="0" />
+</FlowControls>
+
+<HttpHeaders>
+</HttpHeaders>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="6eff4aa3-2abf-40a6-bca7-e9c17434d7a3" Param="UseLegacyJSONParsing" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="207540cf-4feb-41f7-9836-2841b9bf650d" Param="EndPointURL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="https://reqres.in/api/users/{Var Name=ID}" Value="https://reqres.in/api/users/{Var Name=ID}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="755103f4-0297-402d-bf38-b1dee8e31dd2" Param="URLUser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="aeab315c-03d3-46b0-b86e-2476dbdd8399" Param="URLDomain" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="95372d06-6543-4b9b-918a-85e4511fc502" Param="URLPass" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="e8e5ba04-73d4-4d29-a51c-c47b67077298" Param="NetworkCredentialsRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Default" Value="Default" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="2adb1d34-c6b7-4745-8cad-ced9269b8514" Param="RequestBodyTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeText" Value="FreeText" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="2fe5ec2e-c444-4daa-8e7a-9757212c14f7" Param="CertificateTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="AllSSL" Value="AllSSL" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="b1db16c7-42ce-4a75-a1e9-d937e6da2712" Param="DoNotFailActionOnBadRespose" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="8fcf2b21-b176-4609-8cb0-1a9b8bb97a54" Param="RequestBody" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d7c91841-496f-4322-9978-5b6942f78a32" Param="ImportRequestFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="41aafabe-198f-45d5-b3ca-a34f73188656" Param="CertificatePath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="37436036-9902-43b8-bf5d-d0af0aeb44f4" Param="CertificatePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="68d47d96-73fb-4303-8568-682cdc39f34b" Param="ImportCetificateFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="False" Value="False" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="4efcd342-a66c-4dde-b311-6150b32bbc23" Param="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="None" Value="None" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="f49dcd0c-9a36-446d-aa25-a539317bb0fe" Param="AuthorizationType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="NoAuthentication" Value="NoAuthentication" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="a564b0d9-4314-4338-8966-40c3c17ac43d" Param="AuthUsername" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1b0e20cf-59aa-4ed8-ada1-7be75b9d28a0" Param="AuthPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d4cba5a6-b93c-4706-8e0a-635f29cb2c86" Param="CookieMode" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="New" Value="New" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="eaaf41ba-2da2-4447-9d14-0cb45b532289" Param="RequestType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="GET" Value="GET" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d81ef978-fce4-4115-abb0-b216443706f1" Param="ReqHttpVersion" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="HTTPV11" Value="HTTPV11" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c9f5d97b-226c-46b8-a862-e16e2cd7244e" Param="ContentType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="JSon" Value="JSon" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="b6891857-6db6-40aa-83c1-cb7d377b7436" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="JSon" Value="JSon" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="fe8e3bcc-deab-4506-828b-dfb3030e6aa6" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<RequestKeyValues>
+</RequestKeyValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="8116213f-cfa8-409e-9ca6-650902fd5fc9" mExpected="{Var Name=ID}" Param="data.id" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreTo="None" StoreToValue="" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="b89609f2-a090-4ca6-92dc-1416302c7a48" mExpected="{Var Name=FIRST_NAME}" Param="data.first_name" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreTo="None" StoreToValue="" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="88ba6e42-a44d-4ccd-a473-6cb8de02391a" mExpected="{Var Name=LAST_NAME}" Param="data.last_name" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreTo="None" StoreToValue="" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.WebServices.ActWebAPIRest>
+<GingerCore.Actions.ActExcel Active="True" ColMappingRules="[STATUS]=Passed" ConfigOutputDS="False" Created="8/23/2018 6:58:34 AM" CreatedBy="VMALAKAR" Description="Excel Action_write_Pass" EnableRetryMechanism="False" ExcelActionType="WriteData" ExcelFileName="~\DOCUMENTS\DATA.XLSX" ExternalID="" Guid="173856db-bee6-4ecf-83d0-3a0a6a088874" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" PrimaryKeyColumn="ID" RetryMechanismInterval="5" SelectAllRows="False" SelectRowsWhere="ID={Var Name=ID}" SheetName="Sheet1" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{ActionStatus}&quot; = &quot;Passed&quot;" Created="8/23/2018 7:33:22 AM" CreatedBy="VMALAKAR" FlowControlAction="GoToAction" Guid="2d1bef1b-11cf-47c0-9d30-6119b63d2c55" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="2b9a2a74-55f9-4764-a587-d0f76006d5bb#GUID_NAME#Set Variable Action" Version="0" />
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="cfb97225-2646-4919-be5e-7621b189fdfa" Param="ColMappingRules" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="[STATUS]=Passed" Value="[STATUS]=Passed" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="b48352df-644b-41af-ac9f-870f2afbd49d" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="~\DOCUMENTS\DATA.XLSX" Value="~\DOCUMENTS\DATA.XLSX" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c16f6f2b-55f6-4cdb-8ee0-d00c2d327520" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Sheet1" Value="Sheet1" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="7ec9983a-5a4a-42d0-a1b3-4e551cb68f27" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID={Var Name=ID}" Value="ID={Var Name=ID}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="64f009d6-d026-4489-8711-57fa86a7c49b" Param="PrimaryKeyColumn" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID" Value="ID" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="49d80ae1-caf5-42b0-b29d-8a3de95e77b9" Param="ID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="ID" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="aaccffa7-3626-4c74-9f81-34d627495ed8" Param="FIRST_NAME" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="FIRST_NAME" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="9460005c-1d4a-480f-bbb3-4f4673fc34ad" Param="LAST_NAME" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="LAST_NAME" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActExcel>
+<GingerCore.Actions.ActExcel Active="True" ColMappingRules="[STATUS]=Fail" ConfigOutputDS="False" Created="8/23/2018 6:58:34 AM" CreatedBy="VMALAKAR" Description="Excel Action_write_fail" EnableRetryMechanism="False" ExcelActionType="WriteData" ExcelFileName="~\DOCUMENTS\DATA.XLSX" ExternalID="" Guid="e89c0c19-5bf5-457f-b045-bb988ed33ca6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" PrimaryKeyColumn="ID" RetryMechanismInterval="5" SelectAllRows="False" SelectRowsWhere="ID={Var Name=ID}" SheetName="Sheet1" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="25c66a6e-c98d-4653-a05b-e381f9933bc7" Param="ColMappingRules" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="[STATUS]=Fail" Value="[STATUS]=Fail" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="34f5e00b-7c47-45b1-bf2f-34b9b0f58a7f" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="~\DOCUMENTS\DATA.XLSX" Value="~\DOCUMENTS\DATA.XLSX" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1bf99579-320e-4cf9-ab78-26807c1416ff" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Sheet1" Value="Sheet1" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="59fce876-24b7-4f3a-ad48-36867f6b7c87" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID={Var Name=ID}" Value="ID={Var Name=ID}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="0cd97c2f-55e2-44cc-8148-6293f6a19210" Param="PrimaryKeyColumn" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ID" Value="ID" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="62f5e0fe-fb8a-4fb4-a55f-f1c0a0c276be" Param="ID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="ID" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="73221412-d9da-41fd-ade7-30305030a550" Param="FIRST_NAME" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="FIRST_NAME" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="100acfe8-f7d1-4fdf-89bf-bc998bbe368f" Param="LAST_NAME" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="LAST_NAME" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActExcel>
+<GingerCore.Actions.ActSetVariableValue Active="True" ConfigOutputDS="False" Created="8/23/2018 7:12:23 AM" CreatedBy="VMALAKAR" Description="Set Variable Action" EnableRetryMechanism="False" ExternalID="" Guid="2b9a2a74-55f9-4764-a587-d0f76006d5bb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="AutoGenerateValue" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" VariableName="Counter" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="{Var Name=Counter}=6" Created="8/23/2018 7:12:54 AM" CreatedBy="VMALAKAR" FlowControlAction="StopBusinessFlow" Guid="7d2ed3dc-e153-41fc-9940-5d441ee5328c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="{Var Name=Counter}&lt;6" Created="8/23/2018 7:13:14 AM" CreatedBy="VMALAKAR" FlowControlAction="GoToAction" Guid="182f2032-8d12-4f97-bafd-7e4f6d1825e8" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="84a6a3ef-a937-4641-bc69-a8efe7efc398#GUID_NAME#Excel Action" Version="0" />
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="e547c8ff-ce53-46f8-af8f-a7a86a816337" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActSetVariableValue>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="8/23/2018 7:00:22 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" ExternalID="" Guid="50c89b94-8ca6-4e77-ab9f-8d3df4bacbae" InitialStringValue="George" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="FIRST_NAME" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="8/23/2018 7:00:26 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" ExternalID="" Guid="36b4045e-0951-4857-acff-d6c5509d6803" InitialStringValue="Bluth" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="LAST_NAME" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="8/23/2018 7:00:38 AM" CreatedBy="VMALAKAR" DiffrentFromOrigin="False" ExternalID="" Guid="820456a2-742b-453b-bf4f-6d3002a63d2d" InitialStringValue="1" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="ID" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableSequence Created="8/23/2018 7:09:20 AM" CreatedBy="VMALAKAR" CurrentValueIndex="5" DiffrentFromOrigin="False" ExternalID="" Guid="5330a3cb-b1cb-444f-ba94-a1479edd8193" Interval="1" IsInteger="False" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Max="10" Min="1" Name="Counter" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="6" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableSequence>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<BFFlowControls>
+</BFFlowControls>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="Pact" Created="8/23/2018 5:30:08 AM" CreatedBy="VMALAKAR" Guid="bde7cd8c-1d4d-4c7b-8042-037dadcb77eb" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>
